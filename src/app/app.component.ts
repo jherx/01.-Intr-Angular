@@ -9,11 +9,16 @@ export class AppComponent {
  title:string = 'Contador';
  num:number =10;
 
- sumar(){
-   this.num +=1;
+//?  Simplificamos las funciones suma y resta con una función donde pasamos un argumento  de tipo numero donde indicamos que a nuestra constante se le agregara ( += )nuestra variable del argumento , en donde se le puede vasar un valor negativo o positivo 
+
+ acumular(valor:number){
+  this.num += valor;
  }
- resta(){
-   this.num -=1;
-  }
+//  sumar(){
+//    this.num +=1;
+//  }
+//  resta(){
+//    this.num -=1;
+//   }
   //  se implementa un método para suma y resta con la expresión para decremento y e incremento 
 }
