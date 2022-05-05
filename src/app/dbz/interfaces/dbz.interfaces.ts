@@ -1,5 +1,5 @@
 
-export interface personajes{
+export interface Personajes{
     nombre:string,
     poder:number
   }
